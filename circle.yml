@@ -9,7 +9,7 @@ dependencies:
 
 test:
   override:
-    -  docker run --rm -v ${PWD}/test:/opt/app -w /opt/app nktpro/tslint foo.ts | grep "unused variable: 'foo'"
+    -  docker run --rm -v ${PWD}/test:/opt/app -w /opt/app nktpro/tslint foo.ts | grep "unused variable"
 
 deployment:
   hub:
