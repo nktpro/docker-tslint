@@ -1,0 +1,18 @@
+{
+  "name": "@nktpro/tslint",
+  "version": "1.0.0",
+  "description": "TSLint with gulp",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "tslint": "*",
+    "gulp": "*",
+    "gulp-tslint": "*",
+    "minimist": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
